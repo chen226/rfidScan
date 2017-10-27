@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="@dimen/list_width"
+        android:layout_height="@dimen/list_devide"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@color/divide" />
+
+    <LinearLayout
+        android:layout_width="@dimen/list_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/list_devide"
+            android:layout_height="fill_parent"
+            android:background="@color/divide" />
+
+        <TextView
+            android:layout_width="@dimen/lable_width"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/SerialNumber" />
+
+        <TextView
+            android:layout_width="@dimen/list_devide"
+            android:layout_height="fill_parent"
+            android:background="@color/divide" />
+
+        <TextView
+            android:layout_width="@dimen/lable_num_width"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Num" />
+
+        <TextView
+            android:layout_width="@dimen/list_devide"
+            android:layout_height="fill_parent"
+            android:background="@color/divide" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="@dimen/list_width"
+        android:layout_height="@dimen/list_devide"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/divide" />
+
+    <LinearLayout
+        android:layout_width="@dimen/list_width"
+        android:layout_height="@dimen/list_height"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/list_devide"
+            android:layout_height="fill_parent"
+            android:background="@color/divide" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="301dp"
+            android:layout_height="@dimen/list_height"
+            android:layout_gravity="center_horizontal" >
+        </ListView>
+
+        <TextView
+            android:layout_width="@dimen/list_devide"
+            android:layout_height="fill_parent"
+            android:background="@color/divide" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="@dimen/list_width"
+        android:layout_height="@dimen/list_devide"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/divide" />
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+        
+  <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" >
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/documentNo" />
+
+            <EditText
+                android:id="@+id/documentNo"
+                android:layout_width="250dp"
+                android:layout_height="@dimen/rm_6c_et_height"
+                android:layout_weight="4"
+                
+                android:gravity="left" />
+            
+        <TextView 
+            android:id="@+id/num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:text="Num:"/>
+        <TextView 
+            android:id="@+id/tx_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/num"/>
+        </TableRow>
+
+</LinearLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/button_stock"
+        android:layout_width="80dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignBaseline="@+id/button_scan"
+        android:layout_alignBottom="@+id/button_scan"
+        android:layout_toRightOf="@+id/button_Tray"
+        android:text="@string/scanStock" />
+
+    <Button
+        android:id="@+id/button_Tray"
+        android:layout_width="80dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignBaseline="@+id/button_scan"
+        android:layout_alignBottom="@+id/button_scan"
+        android:layout_toRightOf="@+id/button_scan"
+        android:text="@string/sacnTray" />
+
+    <Button
+        android:id="@+id/button_scan"
+        android:layout_width="80dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="80dp"
+        android:text="@string/scan" />
+
+     <Button
+        android:id="@+id/button_scanx"
+        android:layout_width="80dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/button_stock"
+        android:text="scan" /> 
+</RelativeLayout>
+
+</LinearLayout>

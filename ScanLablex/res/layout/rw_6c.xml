@@ -1,0 +1,201 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/epc0"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/rm_6c_et_height"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1" />
+        <!--
+        <EditText
+            android:id="@+id/epc1" 
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/rm_6c_et_height"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:editable="false"
+            android:focusable="false"
+            />
+        
+        <EditText
+            android:id="@+id/epc2" 
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/rm_6c_et_height"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:editable="false"
+            android:focusable="false"
+            />
+        
+        <EditText
+            android:id="@+id/epc3" 
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/rm_6c_et_height"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:editable="false"
+            android:focusable="false"
+            />
+        -->
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" >
+
+            <TextView
+                android:id="@+id/et_name0"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/materialName" />
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/rm_6c_et_height"
+                android:layout_weight="4"
+                
+                android:gravity="left" />
+        </TableRow>
+
+      <!--   <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" >
+
+            <TextView
+                android:id="@+id/et_materialType0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/materialType" />
+
+            <EditText
+                android:id="@+id/et_materialType"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/rm_6c_et_height"
+                android:layout_weight="4"
+                
+                android:gravity="left" />
+        </TableRow>
+ -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" >
+
+            <TextView
+                android:id="@+id/et_materialCode0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/materialCode" />
+
+            <EditText
+                android:id="@+id/et_materialCode"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/rm_6c_et_height"
+                android:layout_weight="4"
+                
+                android:gravity="left" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" >
+
+            <TextView
+                android:id="@+id/et_batchNum0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/batchNum" />
+
+            <EditText
+                android:id="@+id/et_batchNum"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/rm_6c_et_height"
+                android:layout_weight="4"
+                
+                android:gravity="left" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" >
+
+            <TextView
+                android:id="@+id/et_SerialNumber0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/SerialNumber" />
+
+            <EditText
+                android:id="@+id/et_SerialNumber"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/rm_6c_et_height"
+                android:layout_weight="4"
+                
+                android:gravity="left" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="@dimen/list_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" >
+
+            <Button
+                android:id="@+id/button_write_6c"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:text="@string/confirm" />
+
+            <Button
+                android:id="@+id/button_delete"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:text="@string/delete" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

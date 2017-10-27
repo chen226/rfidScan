@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">UHF</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="version">Version:</string>
+    <string name="dmin">Dmin:</string>
+    <string name="band">Band:</string>
+    <string name="dmax">Dmax:</string>
+    <string name="power">Power:</string>
+    <string name="scantime">ScanTime:</string>
+    <string-array name="men_select">
+        <item>PWD</item>
+        <item>EPC</item>
+        <item>TID</item>
+        <item>USER</item>
+    </string-array>
+    <string name="open_warning">You must open the device before your oprate!</string>
+    <string name="wordptr_empty_warning">WordPtr can not be empty!</string>
+    <string name="length_empty_warning">Length can not be empty!</string>
+    <string name="pwd_empty_warning">Password can not be empty!</string>
+    <string name="content_empty_warning">Write data need content not be empty!</string>
+    <string name="length_content_warning">Length and content does not match!</string>
+    <string name="str_lenght_odd_warning">Length of every data can not be odd!</string>
+    <string name="data_ilegal">Data illegal!(empty or length is odd?)</string>
+    <string-array name="Fre_select">
+        <item>902.75 MHz</item>
+        <item>903.25 MHz</item>
+        <item>903.75 MHz</item>
+        <item>904.25 MHz</item>
+        <item>904.75 MHz</item>
+        <item>905.25 MHz</item>
+        <item>905.75 MHz</item>
+        <item>906.25 MHz</item>
+        <item>906.75 MHz</item>
+        <item>907.25 MHz</item>
+        <item>907.75 MHz</item>
+        <item>908.25 MHz</item>
+        <item>908.75 MHz</item>
+        <item>909.25 MHz</item>
+        <item>909.75 MHz</item>
+        <item>910.25 MHz</item>
+        <item>910.75 MHz</item>
+        <item>911.25 MHz</item>
+        <item>911.75 MHz</item>
+        <item>912.25 MHz</item>
+        <item>912.75 MHz</item>
+        <item>913.25 MHz</item>
+        <item>913.75 MHz</item>
+        <item>914.25 MHz</item>
+        <item>914.75 MHz</item>
+        <item>915.25 MHz</item>
+        <item>915.75 MHz</item>
+        <item>916.25 MHz</item>
+        <item>916.75 MHz</item>
+        <item>917.25 MHz</item>
+        <item>917.75 MHz</item>
+        <item>918.25 MHz</item>
+        <item>918.75 MHz</item>
+        <item>919.25 MHz</item>
+        <item>919.75 MHz</item>
+        <item>920.25 MHz</item>
+        <item>920.75 MHz</item>
+        <item>921.25 MHz</item>
+        <item>921.75 MHz</item>
+        <item>922.25 MHz</item>
+        <item>922.75 MHz</item>
+        <item>923.25 MHz</item>
+        <item>923.75 MHz</item>
+        <item>924.25 MHz</item>
+        <item>924.75 MHz</item>
+        <item>925.25 MHz</item>
+        <item>925.75 MHz</item>
+        <item>926.25 MHz</item>
+        <item>926.75 MHz</item>
+        <item>927.25 MHz</item>
+    </string-array>
+    <string-array name="Power_select">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    
+    <string name="materialName">物料名称</string>
+    <string name="materialType">物料类型</string>
+    <string name="materialCode">编号</string>
+    <string name="batchNum">批号</string>
+    <string name="SerialNumber">流水号</string>
+    <string name="sacnTray">扫托盘</string>
+    <string name="scanStock">扫库位</string>
+    <string name="scan">扫物料</string>
+    <string name="confirm">确定</string>
+    <string name="delete">删除</string>
+    <string name="documentNo">单据号</string>
+    <string name="incomingMaterial">入库</string>
+    <string name="outMaterial">出库</string>
+    <string name="noDocumentNo">请输入单据号</string>
+</resources>
